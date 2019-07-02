@@ -8,17 +8,10 @@ namespace Cinema
 {
     class Person
     {
-        public string Name { get; set; }
-        
-        public byte Money { get; set; }
-
-        public string Surname { get; set; }
-
-        public Person(string name, string surname,  byte money)
+        public int Money;
+        public Person(int money)
         {
-            Name = name;
             Money = money;
-            Surname = surname;
         }
     }
 }
